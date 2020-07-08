@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Enter Your Text</h1>
+    <form action='/analyse' method = 'get'>
+        <textarea name="text" style="margin: 0px; width: 720px; height: 93px;"></textarea><br>
+        <input type="checkbox" name="removePunctuation">Remove Punctuation <br>
+        <input type="checkbox" name="CapitalizeString">Capitalize the entire string <br>
+        <input type="checkbox" name="removeExtraSpace">Remove extra spaces <br>
+        <button type="submit">Analyse Text</button>
+    </form>
+</body>
+</html>
